@@ -1,0 +1,59 @@
+body, table, thead, tbody, th, img{
+	margin:0;
+	padding:0;
+}
+
+body{
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+}
+
+table{
+	margin:10px auto auto 10px;
+	border-bottom:1px solid #C4C3A8; 
+	border-collapse:collapse;
+}
+
+thead{
+	/*Gradient from #5EC306 (top) to #47A803(bottom)*/
+	background: #56B906; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5EC306, #47A803); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5EC306, #47A803); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5EC306, #47A803); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5EC306, #47A803); /* Standard syntax (must be last) */
+}
+
+th{
+	text-align:left;
+	color:#FFF;
+	padding-left:5px;
+}
+
+td{
+	padding-left:5px;
+}
+
+tr:nth-child(even) {
+    background-color: #ECECD8;
+}
+
+#firstColumn{
+	width:140px;
+}
+
+#secondColumn{
+	width:110px;
+}
+
+#thirdColumn{
+	width:125px;
+}
+
+#fourthColumn{
+	width:85px;
+}
+
+.column{
+	border-right:1px solid #C4C3A8;
+}
+
