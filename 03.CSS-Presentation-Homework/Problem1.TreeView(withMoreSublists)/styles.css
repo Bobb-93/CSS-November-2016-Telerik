@@ -1,0 +1,39 @@
+body, main, ul, li{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.non{
+	text-decoration: none;
+}
+
+a{
+	color:black;
+	text-decoration:none
+}
+
+li>ul>li>a{
+    color: gray;
+}
+
+ul li ul{
+    display: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul li:hover>ul{
+    display: block;
+	padding-left: 10px;	
+}

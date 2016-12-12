@@ -1,0 +1,26 @@
+body, p{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	padding-left: 15px;
+	padding-top: 28px;
+	color:#54ABFF;
+	font-family:Consolas;
+}
+
+p::first-line{
+	font-weight:bold;
+	line-height:200%;
+}
+
+@font-face {
+    font-family: "Edwardian Script ITC";
+    src: url("fonts/EdwardianScriptITC.ttf");
+}
+
+p::first-letter{
+	font-family:"Edwardian Script ITC";
+	font-size:250%;
+}

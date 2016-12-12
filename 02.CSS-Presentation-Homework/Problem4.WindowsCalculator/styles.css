@@ -1,0 +1,207 @@
+body, div{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width: 450px;
+	height: 445px;
+	border-radius: 5px;
+	margin: 10px auto auto 10px;
+	background: #BCDCFB; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D8EAFC, #ABCBEB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D8EAFC,#ABCBEB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D8EAFC, #ABCBEB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D8EAFC, #ABCBEB); /* Standard syntax */
+}
+
+span>button{
+	height: 20px;
+	border-bottom: 1px solid #7D848B;
+	border-right: 1px solid #7D848B;
+	border-left: 1px solid #7D848B;
+}
+
+.topButtons{
+	float:right;
+	margin-right: 5px;
+}
+
+#minimize{
+	background: url("images/minimize.png");
+	width: 29px;
+	border-bottom-left-radius: 4px;
+}
+
+#maximize{
+	background: url("images/maximize.png");
+	margin-left:-5px;
+	width:26px;
+}
+
+#close{
+	background: url("images/close.png");
+	margin-left:-5px;
+	width: 45px;
+	border-bottom-right-radius: 3px;
+}
+
+.heading{
+	width: 430px;
+	height: 20px;
+	margin-left: 8px;
+	padding-top: 1px;
+	border-top: 2px solid #697583;
+	border-right: 2px solid #697583;
+	border-left: 2px solid #697583;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #D7DEF0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFF, #E3E8F8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF,#E3E8F8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF, #E3E8F8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF, #E3E8F8); /* Standard syntax */
+}
+
+img{
+	height: 28px;
+	width: 23px;
+	vertical-align:middle;
+	margin-bottom: 5px;
+}
+
+.container>span{
+	font-size:17px;
+	/*padding-top: -10px;*/
+	/*background-position:bottom;*/
+}
+
+.main-div{
+	width: 430px;
+	height: 375px;
+	margin-left: 8px;
+	border-right: 2px solid #697583;
+	border-bottom: 2px solid #697583;
+	border-left: 2px solid #697583;
+	background: #D9E4F1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F3F4F4, #E2EDFA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F3F4F4,#E2EDFA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F3F4F4, #E2EDFA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F3F4F4, #E2EDFA); /* Standard syntax */
+}
+
+span::first-letter{
+	text-decoration:underline;
+}
+
+span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#output{
+	height: 55px;
+	width: 410px;
+	padding-top: 5px;
+	text-align: right;
+	line-height:25px;
+	font-size: 25px;
+	border-color:#8E9CAD;
+	border-radius: 4px;
+	margin: 15px 10px 10px;
+	background: #EEF4FC; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E5EEFB, #FEFFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E5EEFB,#FEFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E5EEFB, #FEFFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E5EEFB, #FEFFFF); /* Standard syntax */
+}
+
+.main-div>div{
+	vertical-align:25%;
+}
+
+.numbersTable{
+	border: 1px solid #8E9DAF;
+	margin: auto 10px 5px;
+}
+
+.numbersTable td{
+	padding-right: 16px;
+}
+
+.leftCells{
+	text-align: left;
+}
+
+.rightCells{
+	text-align:right;
+}
+
+.centerCells{
+	text-align:center;
+}
+
+.buttons{
+	border: 1px solid #A1AFC1;
+	width: 75px;
+	margin-left:10px;
+	margin-right:5px;
+	text-align:left;
+}
+
+.main-table td{
+	height: 24px;
+	width: 34px;
+	padding: 1.5px;
+	border: 1px solid #8797AA;
+}
+
+td{
+	text-align: center;
+	border-radius: 2px;
+}
+
+td:hover{
+	cursor: default;
+	/*border-radius: 2px;*/
+}
+
+.numbers{
+	background: #E7EDF5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FAFEFF, #F1F9FD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FAFEFF,#F1F9FD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FAFEFF, #F1F9FD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FAFEFF, #F1F9FD); /* Standard syntax */
+}
+
+.validOperations{
+	background: #D5E0ED;
+	background: -webkit-linear-gradient(#F0F6FB, #D5E1EE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F0F6FB,#D5E1EE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F0F6FB, #D5E1EE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F0F6FB, #D5E1EE); /* Standard syntax */
+}
+
+.hoveredButtons:hover{
+	background: #FBD073; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FEF3E8 25%,  #FCE1BC, #FBD073, #FCF7C3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEF3E8 25%,  #FCE1BC, #FBD073, #FCF7C3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEF3E8 25%,  #FCE1BC, #FBD073, #FCF7C3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEF3E8 25%,  #FCE1BC,  #FBD073, #FCF7C3); /* Standard syntax */
+}
+
+.inactiveButtons{
+	background-color: #D9E4F1;
+}
+
+.memoryOperations{
+	background-color: #D9E4F1;
+}
+
+#noBorder{
+	border: 0;	
+}
+
+#moreNoBorder{
+	border: 0;
+}

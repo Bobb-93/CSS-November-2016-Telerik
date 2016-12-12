@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link type="text/css" rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<span>&nbsp;<img src="images/calculator.png" alt="calculator">&nbsp;Calculator</span>
+			<span class="topButtons">
+				<button id="minimize"></button>
+				<button id="maximize"></button>
+				<button id="close"></button>
+			</span>
+			<div class="heading">
+				<span>View&nbsp;&nbsp;&nbsp;</span>
+				<span>Edit&nbsp;&nbsp;&nbsp;</span>
+				<span>Help&nbsp;&nbsp;&nbsp;</span>
+			</div>
+				
+			<div class="main-div">
+				<div>
+					<input type="text" id="output" name="output" value="8854455" required="required"> 
+				</div>
+				<table class="numbersTable">
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="leftCells">63</td>
+						<td colspan="3" class="leftCells">47</td>
+						<td class="rightCells">32</td>
+					</tr>
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>1000</td>
+						<td>0111</td>
+						<td>0001</td>
+						<td>1011</td>
+						<td>1011</td>
+						<td>1011</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="leftCells">31</td>
+						<td colspan="3" class="leftCells">15</td>
+						<td class="rightCells">0</td>
+					</tr>
+				</table>
+				
+				<table class="main-table">
+					<tr>
+						<td rowspan="3" id="noBorder">
+							<span class="buttons">
+								<input type="radio" name = "numeralSystem" value="hexSystem" id="hex" ><label for="hex">Hex</label><br />
+								<input type="radio" name= "numeralSystem" value="decSystem" id="dec" checked="checked"><label for="dec">Dec</label><br />
+								<input type="radio" name = "numeralSystem" value="octSystem" id="oct"><label for="oct">Oct</label><br />
+								<input type="radio" name = "numeralSystem" value="binSystem" id="bin"><label for="bin">Bin</label><br />
+							</span>
+						</td>
+						<td class="inactiveButtons">&nbsp;&nbsp;</td>
+						<td class="hoveredButtons validOperations">Mod</td>
+						<td class="hex-numbers inactiveButtons">A</td>
+						<td class="hoveredButtons memoryOperations">MC</td>
+						<td class="hoveredButtons memoryOperations">MR</td>
+						<td class="hoveredButtons memoryOperations">MS</td>
+						<td class="hoveredButtons memoryOperations">M+</td>
+						<td class="hoveredButtons memoryOperations">M-</td>
+					</tr>
+					<tr>
+						<td class="hoveredButtons validOperations">(</td>
+						<td class="hoveredButtons validOperations">)</td>
+						<td class="hex-numbers inactiveButtons">B</td>
+						<td class="hoveredButtons validOperations"><strong>&larr;</strong></td>
+						<td class="hoveredButtons validOperations">CE</td>
+						<td class="hoveredButtons validOperations">C</td>
+						<td class="hoveredButtons validOperations">&plusmn;</td>
+						<td class="inactiveButtons">&radic;</td>
+					</tr>
+					<tr>
+						<td class="hoveredButtons validOperations">RoL</td>
+						<td class="hoveredButtons validOperations">RoR</td>
+						<td class="hex-numbers inactiveButtons">C</td>
+						<td class="hoveredButtons numbers">7</td>
+						<td class="hoveredButtons numbers">8</td>
+						<td class="hoveredButtons numbers">9</td>
+						<td class="hoveredButtons validOperations">/</td>
+						<td class="inactiveButtons">%</td>
+					</tr>
+					<tr>
+						<td rowspan="3" id="moreNoBorder"><!-- without Ids it is not working -->
+							<span class="buttons">
+								<input type="radio" name = "wordType" value="qWord" id="qword" checked="checked"><label for="qword">Qword</label><br />
+								<input type="radio" name= "wordType" value="dWord" id="dword"><label for="dword">Dword</label><br />
+								<input type="radio" name = "wordType" value="Word" id="word"><label for="word">Word</label><br />
+								<input type="radio" name = "wordType" value="Byte" id="byte"><label for="byte">Byte</label><br />
+							</span>
+						</td>
+						<td class="hoveredButtons validOperations">Or</td>
+						<td class="hoveredButtons validOperations">Xor</td>
+						<td class="hex-numbers inactiveButtons">D</td>
+						<td class="hoveredButtons numbers">4</td>
+						<td class="hoveredButtons numbers">5</td>
+						<td class="hoveredButtons numbers">6</td>
+						<td class="hoveredButtons validOperations">*</td>
+						<td class="inactiveButtons">1/<i>x</i></td>
+					</tr>
+					<tr>
+						<td class="hoveredButtons validOperations">Lsh</td>
+						<td class="hoveredButtons validOperations">Rsh</td>
+						<td class="hex-numbers inactiveButtons">E</td>
+						<td class="hoveredButtons numbers">1</td>
+						<td class="hoveredButtons numbers">2</td>
+						<td class="hoveredButtons numbers">3</td>
+						<td class="hoveredButtons validOperations">-</td>
+						<td rowspan="2" class="hoveredButtons validOperations">=</td>
+					</tr>
+					<tr>
+						<td class="hoveredButtons validOperations">Not</td>
+						<td class="hoveredButtons validOperations">And</td>
+						<td class="hex-numbers inactiveButtons">F</td>
+						<td colspan="2" class="centerCells hoveredButtons numbers">0</td>
+						<td class="inactiveButtons">.</td>
+						<td class="hoveredButtons validOperations">+</td>
+					</tr>
+					
+				</table>
+			</div>
+		</div>	
+		
+	</body>
+
+</html>

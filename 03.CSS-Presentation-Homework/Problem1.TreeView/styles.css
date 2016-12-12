@@ -1,0 +1,35 @@
+body, main, ol, li{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+ol{
+    list-style-type:none;
+}
+
+a{
+	color:black;
+	text-decoration:none
+}
+
+li>ol>li>a{
+    color: gray;
+}
+
+ol li ol{
+    display: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ol li:hover>ol{
+    display: block;	
+	padding-left: 10px;
+}
